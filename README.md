@@ -21,13 +21,13 @@ This repository contains the source code for a GraphQL application. The applicat
 1. Clone this repository:
 
 ```bash
-  git clone https://github.com/your-username/your-graphql-app.git
+  git clone https://github.com/harshu6397/grapgql-learning.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd your-graphql-app
+cd grapgql-learning
 ```
 
 3. Install dependencies:
@@ -41,3 +41,17 @@ npm run dev
 ```
 
 Access the GraphQL Playground at http://localhost:4000/graphql to interact with the GraphQL API.
+
+## Customization
+- Schema: Modify the typedefs.ts file to define your GraphQL schema.
+- Resolvers: Customize the resolvers in the resolvers directory to handle your application's logic and data retrieval.
+- Database Integration: Integrate your database and update resolvers accordingly.
+- Additional Middleware: Extend the Express server in the index.ts file for additional functionality.
+
+## Contributing
+Feel free to contribute to this project by creating issues or pull requests. Your feedback and improvements are highly appreciated.
+
+## Acknowledgments
+Based on GraphQL principles and best practices outlined in the GraphQL documentation.
+Special thanks to the open-source community for their valuable contributions and inspiration.
+Happy coding!
