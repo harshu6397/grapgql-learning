@@ -23,9 +23,6 @@ This repository contains the source code for a GraphQL application. The applicat
 ```bash
   git clone https://github.com/your-username/your-graphql-app.git
 ```
-```bash
-$ npm install
-```
 
 2. Navigate to the project directory:
 
@@ -33,14 +30,14 @@ $ npm install
 cd your-graphql-app
 ```
 
-Install dependencies:
+3. Install dependencies:
 ```bash
 npm install
 ```
 
-Start the server
+4. Start the server
 ```bash
-npm start
+npm run dev
 ```
 
 Access the GraphQL Playground at http://localhost:4000/graphql to interact with the GraphQL API.
